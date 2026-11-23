@@ -1,0 +1,48 @@
+﻿APLICATIVO FINAL — PONTUALIDADE EM FOCO
+
+Abra INICIAR_APLICATIVO.bat. O aplicativo funciona no navegador em
+http://127.0.0.1:8501. Mantenha o terminal aberto durante a consulta.
+Para encerrar, pressione Ctrl+C no terminal.
+
+O iniciador usa o ambiente do projeto quando ele está disponível.
+Em outra máquina, usa Python 3.11, cria .venv e instala requirements.txt
+na primeira execução. Depois da instalação, dados e IA funcionam localmente,
+sem chave de API ou serviço de inferência externo.
+
+Inicialização manual a partir desta pasta:
+python -m venv .venv
+.venv/Scripts/python.exe -m pip install -r requirements.txt
+.venv/Scripts/python.exe -m streamlit run app_streamlit.py --browser.gatherUsageStats false
+
+O pacote inclui os arquivos de execução, indicadores, predições históricas,
+rotas, modelos, encoder, corpus do assistente e manifesto de integridade.
+Não depende da pasta original de dados para abrir o produto.
+
+ÁREAS DO APLICATIVO
+1. Visão geral: filtros, indicadores anuais, gráfico mensal, origens e CSV.
+2. Risco histórico: lista global dos 10%, comparação de modelos e exportação.
+3. Simular voo: inferência efetiva no modelo treinado a partir da programação.
+4. Assistente IA: intenções em português, consultas locais, contexto e fontes.
+5. Sobre os dados: recorte, origem, definições e alcance da avaliação.
+
+EXEMPLO
+Pergunte: Qual a taxa de atraso em agosto na SBGR com a TAM?
+Resposta de referência: 5.112 elegíveis, 627 atrasos, taxa 12,27%.
+Continue: e em novembro? O assistente conserva origem e empresa.
+
+DOIS COMPONENTES DE IA
+O classificador de risco é a árvore M2_D6 já selecionada e congelada.
+O assistente é IA de processamento de linguagem natural: TF-IDF e regressão
+logística, 12 intenções e respostas baseadas em consultas determinísticas.
+Não é um LLM generativo. Os exemplos de treinamento são linguísticos e
+sintéticos, identificados como tal. Não são entrevistas ou conversas reais.
+
+ALCANCE
+Dados históricos de 2025; os filtros recortam a lista global fixa do teste.
+O escore de simulação não é probabilidade calibrada ou garantia de atraso.
+A avaliação realizada é técnica; não houve pesquisa com participantes ou
+medição de ganho de tempo humano. Não há inferência causal sobre atrasos.
+
+TESTES
+.venv/Scripts/python.exe -m unittest discover -p test_produto_final.py -v
+O modelo congelado é usado em inferência; o teste preditivo não é retreinado.

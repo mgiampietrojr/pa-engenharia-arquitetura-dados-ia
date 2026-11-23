@@ -1,0 +1,26 @@
+{
+  "gerado_em": "2026-11-23T10:43:42-03:00",
+  "modelo_preditivo": "M2_D6 congelado no experimento de 23/11; sem novo treinamento ou seleção.",
+  "assistente": "TF-IDF de palavras e caracteres + regressão logística; consultas determinísticas e respostas fundamentadas.",
+  "arquivos": {
+    "aeroportos.parquet": "0ac31a26c6e325647d6e203448b7aca8f2ef7cd38b03bde7fba1b473fb25dc6e",
+    "assistente_nlu.joblib": "ef2f0bbcd0a288c80dfa01344f08ebd092a7c425c4753afdc34d1175c05ba9d5",
+    "corpus_assistente.json": "29e712678563dbf923f898d4420ff8e7a43d193d80606843cab59d5820da9e55",
+    "cubo_indicadores.parquet": "48493508b71ec1b5ba0c4534796ed1030cffdc1654a29ed5bb30274c89aa360a",
+    "empresas.parquet": "8512f04d449d988adba281666aed58c11cc268ea8bc97e08a90d92cf95927d05",
+    "encoder.joblib": "b89e1d1a2f404fd87bd6cb560df30018268a2097d9f4a04132ef2cbbf84f65e1",
+    "modelo_preditivo.joblib": "7214c180876d7f15569e55753e4397d102888df3f5ad770f7ee664e1e5dc68b0",
+    "predicoes_teste.parquet": "648c21d657f4420473b426f05021f2ef98a8435151aebd983f89a0f0f07923a4",
+    "resultado_sprint3.json": "8e433e8c9225cf418fa31bd86aafd251b6c18234cad2187de840cb230415c797",
+    "rotas.parquet": "8bc82eda9dde9912d1a332423aa36728864ffc8188d3ba2e89c564b58b0b9afb"
+  },
+  "pacotes": {
+    "streamlit": "1.50.0",
+    "altair": "5.5.0",
+    "scikit-learn": "1.6.1",
+    "numpy": "1.26.4",
+    "pandas": "2.3.1",
+    "pyarrow": "21.0.0",
+    "joblib": "1.4.2"
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "tipo": "Exemplos linguísticos sintéticos, elaborados para ajuste e verificação técnica; não são entrevistas ou mensagens reais.",
+  "treino": {
+    "resumo": [
+      "resuma os dados",
+      "qual a taxa de atraso",
+      "quantos voos atrasaram",
+      "mostre os indicadores",
+      "me dê um panorama",
+      "resumo do recorte",
+      "qual a pontualidade",
+      "como estão os atrasos",
+      "quantas etapas são elegíveis",
+      "qual o percentual de atraso",
+      "quantos atrasos temos nesse filtro",
+      "volume e taxa de atraso",
+      "quero uma visão geral dos voos",
+      "qual o total de voos realizados",
+      "quero saber os números gerais"
+    ],
+    "origens": [
+      "quais aeroportos têm mais atrasos",
+      "compare as origens",
+      "mostre os aeroportos",
+      "qual origem tem maior taxa",
+      "ranking dos aeroportos por atraso",
+      "quais aeroportos têm mais voos",
+      "compare aeroportos de origem",
+      "aeroportos com maior volume",
+      "ordene origens pela taxa",
+      "onde há maior percentual de atraso",
+      "quais origens estão na liderança",
+      "qual aeroporto concentra atrasos",
+      "analisar aeroportos",
+      "pontualidade por aeroporto",
+      "mostrar ranking por origem"
+    ],
+    "meses": [
+      "compare os meses",
+      "evolução mensal dos atrasos",
+      "qual mês tem maior taxa",
+      "tendência por mês",
+      "como evoluiu a pontualidade",
+      "melhor e pior mês",
+      "mostre a série temporal",
+      "análise mensal de 2025",
+      "compare janeiro com dezembro",
+      "taxa em cada mês",
+      "há variação entre os meses",
+      "em qual mês houve mais atrasos",
+      "ranking mensal",
+      "qual mês apresentou maior atraso",
+      "histórico mês a mês"
+    ],
+    "cancelamentos": [
+      "quantos voos foram cancelados",
+      "mostre cancelamentos",
+      "taxa de cancelamento",
+      "os cancelados entram na taxa",
+      "cancelamentos no recorte",
+      "quero saber sobre voos cancelados",
+      "quantas etapas canceladas",
+      "exibir cancelados",
+      "há cancelamentos nos dados",
+      "total de cancelamentos",
+      "qual a quantidade de voos cancelados",
+      "cancelados são pontuais",
+      "compare canceladas e realizadas",
+      "entender os cancelamentos",
+      "veja quantos cancelaram"
+    ],
+    "qualidade": [
+      "qual a qualidade dos dados",
+      "existem duplicidades",
+      "quantos registros em quarentena",
+      "há horários extremos",
+      "quais as exclusões",
+      "reconciliação das linhas",
+      "os dados estão completos",
+      "há dados faltantes",
+      "registros rejeitados",
+      "problemas de qualidade",
+      "quantas linhas foram excluídas",
+      "como as linhas foram classificadas",
+      "duplicados e horários inválidos",
+      "quantos registros foram sinalizados",
+      "veja os dados excluídos"
+    ],
+    "modelo": [
+      "qual modelo foi escolhido",
+      "qual foi o desempenho da IA",
+      "compare os modelos",
+      "a meta foi atingida",
+      "qual o recall no teste",
+      "métricas do experimento",
+      "resultados da árvore",
+      "qual a precisão do modelo",
+      "quanto deu a average precision",
+      "a IA teve um bom resultado",
+      "qual classificador venceu",
+      "como o modelo foi selecionado",
+      "desempenho preditivo",
+      "qual resultado final da previsão",
+      "relembre o experimento"
+    ],
+    "ranking": [
+      "mostre a lista de risco",
+      "quantos voos foram priorizados",
+      "qual o recall da lista neste recorte",
+      "lista prioritária do teste",
+      "quais etapas são prioritárias",
+      "qual o ranking de risco histórico",
+      "como funciona a seleção dos dez por cento",
+      "atrasos encontrados na lista",
+      "mostre o grupo de maior risco",
+      "quantas etapas estão na lista global",
+      "precisão da priorização",
+      "prioridades do modelo",
+      "quem entrou nos 10%",
+      "quero ver o risco histórico",
+      "dados do teste priorizados"
+    ],
+    "escore": [
+      "o que significa esse escore",
+      "o escore é probabilidade",
+      "explique o risco do voo simulado",
+      "interprete minha simulação",
+      "como prever um novo voo",
+      "como simular uma etapa",
+      "explique o resultado da previsão",
+      "o voo simulado vai atrasar",
+      "resultado da simulação",
+      "o que significa o valor do risco",
+      "posso interpretar como chance de atraso",
+      "esse percentual é calibrado",
+      "é uma certeza de atraso",
+      "explique a inferência do modelo",
+      "quero estimar um voo"
+    ],
+    "fonte": [
+      "de onde vêm os dados",
+      "qual a fonte dos registros",
+      "como rastrear os arquivos",
+      "quem publica os voos",
+      "origem da base",
+      "de onde saíram os números",
+      "onde encontro os dados da ANAC",
+      "qual o período analisado",
+      "os dados são oficiais",
+      "fonte e período",
+      "metadados dos voos",
+      "qual é a base usada",
+      "rastreabilidade dos arquivos",
+      "a base tem todos os meses",
+      "que ano está sendo consultado"
+    ],
+    "definicoes": [
+      "o que é atraso",
+      "qual o denominador da taxa",
+      "explique os indicadores",
+      "o que é etapa elegível",
+      "qual a fórmula da taxa de atraso",
+      "por que usar trinta minutos",
+      "qual a definição de pontualidade",
+      "quais voos entram no cálculo",
+      "atraso inclui exatamente trinta minutos",
+      "o que significa realizada elegível",
+      "quais são as regras de inclusão",
+      "como calcular a taxa",
+      "entenda numerador e denominador",
+      "como vocês definem atraso",
+      "que unidade de análise é usada"
+    ],
+    "limites": [
+      "qual a causa dos atrasos",
+      "por que os voos atrasam",
+      "a chuva causou os atrasos",
+      "quais as limitações do projeto",
+      "a IA reduz atrasos",
+      "posso usar em tempo real",
+      "houve validação com usuários",
+      "quem foi entrevistado",
+      "qual o ganho operacional",
+      "o modelo garante o resultado",
+      "há prova de redução de custos",
+      "esse resultado demonstra causalidade",
+      "como foi a pesquisa com pessoas",
+      "posso aplicar em operação real",
+      "isso prova que o aeroporto causa atraso"
+    ],
+    "ajuda": [
+      "como usar o assistente",
+      "o que posso perguntar",
+      "quais perguntas você responde",
+      "me ajude com o painel",
+      "como usar os filtros",
+      "como funciona esta aplicação",
+      "olá",
+      "oi assistente",
+      "preciso de ajuda",
+      "que análises estão disponíveis",
+      "quais suas funções",
+      "como navegar nas telas",
+      "o que você consegue fazer",
+      "começar uma análise",
+      "orientações de uso"
+    ]
+  },
+  "verificacao_reservada": [
+    {
+      "pergunta": "Pode resumir a quantidade de atrasos e a taxa deste recorte?",
+      "intencao": "resumo"
+    },
+    {
+      "pergunta": "Qual a porcentagem de voos atrasados?",
+      "intencao": "resumo"
+    },
+    {
+      "pergunta": "Liste as origens com maior proporção de atrasos.",
+      "intencao": "origens"
+    },
+    {
+      "pergunta": "Qual aeroporto teve a maior taxa?",
+      "intencao": "origens"
+    },
+    {
+      "pergunta": "Mostre uma comparação entre os meses do ano.",
+      "intencao": "meses"
+    },
+    {
+      "pergunta": "Em que mês a pontualidade foi pior?",
+      "intencao": "meses"
+    },
+    {
+      "pergunta": "Qual o número de cancelamentos?",
+      "intencao": "cancelamentos"
+    },
+    {
+      "pergunta": "Voos cancelados fazem parte do denominador?",
+      "intencao": "cancelamentos"
+    },
+    {
+      "pergunta": "Quantas duplicidades foram para quarentena?",
+      "intencao": "qualidade"
+    },
+    {
+      "pergunta": "Quais problemas de qualidade foram identificados?",
+      "intencao": "qualidade"
+    },
+    {
+      "pergunta": "Qual foi o modelo vencedor e o recall no teste?",
+      "intencao": "modelo"
+    },
+    {
+      "pergunta": "Mostre os resultados dos classificadores.",
+      "intencao": "modelo"
+    },
+    {
+      "pergunta": "Qual a quantidade de etapas priorizadas no teste?",
+      "intencao": "ranking"
+    },
+    {
+      "pergunta": "Como está a precisão da lista prioritária?",
+      "intencao": "ranking"
+    },
+    {
+      "pergunta": "Esse escore pode ser lido como probabilidade?",
+      "intencao": "escore"
+    },
+    {
+      "pergunta": "Como interpretar o voo que simulei?",
+      "intencao": "escore"
+    },
+    {
+      "pergunta": "Qual conjunto oficial alimenta o painel?",
+      "intencao": "fonte"
+    },
+    {
+      "pergunta": "De qual ano são esses registros?",
+      "intencao": "fonte"
+    },
+    {
+      "pergunta": "Como é definido o atraso de partida?",
+      "intencao": "definicoes"
+    },
+    {
+      "pergunta": "Que população compõe o denominador?",
+      "intencao": "definicoes"
+    },
+    {
+      "pergunta": "É possível concluir que o clima causou o atraso?",
+      "intencao": "limites"
+    },
+    {
+      "pergunta": "Vocês entrevistaram analistas?",
+      "intencao": "limites"
+    },
+    {
+      "pergunta": "Quais perguntas posso fazer aqui?",
+      "intencao": "ajuda"
+    },
+    {
+      "pergunta": "Pode me orientar a usar o painel?",
+      "intencao": "ajuda"
+    }
+  ]
+}
