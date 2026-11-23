@@ -34,6 +34,14 @@ python -m venv .venv
 
 No Linux, use `.venv/bin/python` no lugar de `.venv/Scripts/python.exe`.
 
+## Interface em celulares
+
+Os filtros ficam em **Filtrar histórico**, sem um menu lateral sobre o
+conteúdo. No celular, os indicadores aparecem em uma grade 2×2 e as cinco
+abas ficam visíveis em duas linhas. As tabelas e a lista prioritária têm
+apresentações próprias para a tela menor; a conversa mantém o campo de
+envio depois das mensagens. O layout foi conferido entre 320 e 1440 pixels.
+
 ## Testes
 
 ```text
